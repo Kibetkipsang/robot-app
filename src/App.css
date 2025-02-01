@@ -1,0 +1,132 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+
+.bot-army {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bot-army h2 {
+  font-size: 2rem;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+}
+
+.bot-army .bot-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bot-army button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.bot-army button:hover {
+  background-color: #c0392b;
+}
+
+
+.bot-collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bot-collection h2 {
+  font-size: 2rem;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+}
+
+.bot-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bot-card {
+  background-color: #ecf0f1;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.bot-card:hover {
+  transform: scale(1.05);
+}
+
+.bot-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.bot-card h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.bot-card p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin: 5px 0;
+}
+
+.bot-card button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.bot-card button:hover {
+  background-color: #2980b9;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
