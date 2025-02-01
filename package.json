@@ -2,8 +2,9 @@
   "name": "vite-project",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js",
-    "dev": "vite"
+    "start": "vite preview",  
+    "dev": "vite",            
+    "build": "vite build"     
   },
   "dependencies": {
     "json-server": "^0.16.3",
