@@ -2,10 +2,10 @@
   "name": "vite-project",
   "version": "1.0.0",
   "scripts": {
-    "start": "vite preview",  
-    "dev": "vite",            
+    "start": "vite preview",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"  
+    "preview": "vite preview"
   },
   "dependencies": {
     "json-server": "^0.16.3",

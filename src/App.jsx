@@ -8,7 +8,7 @@ function App() {
   const [bots, setBots] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/bots")
+    fetch("https://jason-fce7.onrender.com")
       .then(response => response.json())
       .then(data => {
         if (Array.isArray(data)) {
