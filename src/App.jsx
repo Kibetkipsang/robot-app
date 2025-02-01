@@ -32,7 +32,7 @@ function App() {
   }
 
   const dischargeBot = (bot) => {
-    fetch(`http://localhost:8080/bots/${bot.id}`, {
+    fetch(`https://jason-fce7.onrender.com${bot.id}`, {
       method: 'DELETE',
     })
       .then(response => response.json())
