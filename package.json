@@ -4,7 +4,8 @@
   "scripts": {
     "start": "vite preview",  
     "dev": "vite",            
-    "build": "vite build"     
+    "build": "vite build",
+    "preview": "vite preview"  
   },
   "dependencies": {
     "json-server": "^0.16.3",
