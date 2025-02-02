@@ -8,7 +8,7 @@ function App() {
   const [bots, setBots] = useState([]);
 
   useEffect(() => {
-    fetch("https://jason-fce7.onrender.com")
+    fetch("https://jason-fce7.onrender.com/bots")
       .then(response => response.json())
       .then(data => {
         if (Array.isArray(data)) {
@@ -32,7 +32,7 @@ function App() {
   }
 
   const dischargeBot = (bot) => {
-    fetch(`https://jason-fce7.onrender.com${bot.id}`, {
+    fetch(`https://jason-fce7.onrender.com/bots${bot.id}`, {
       method: 'DELETE',
     })
       .then(response => response.json())
